@@ -1,0 +1,45 @@
+.Banner
+{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100% ;
+    height: 550px;
+    background-image: url(../imagenes/generales/urbana.png);
+    background-position: center; /*esta linea de codigo sirve para la posicion de la imagen*/
+    background-size: cover; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    display: flex;
+}
+.Banner::before
+{
+    content: ""; /*creamos una mascara vacia*/
+    position: absolute;
+    background-color: rgba(204, 206, 211, 0.445);
+    top: 0; /*las propiedades top y left son un punto de partida*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.Bannercontent
+{
+    z-index: 5; /*esto significa profundidad*/
+    position: relative;
+    max-width: 800px;
+}
+.Bannercontent h1
+{
+    color: rgb(2, 141, 255);
+    font-size: 28pt;
+    font-weight: bold;
+    margin-bottom: 10pt;
+}
+.Bannercontent p 
+{
+    color: rgb(0, 0, 0);
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 10pt;
+}

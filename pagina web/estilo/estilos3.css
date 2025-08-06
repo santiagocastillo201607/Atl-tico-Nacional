@@ -1,0 +1,38 @@
+.contenido_texto
+{
+    border: 2px solid rgb(87, 209, 240);
+    width: 100%;
+    height: auto;
+    background-color: rgb(97, 165, 177);
+    padding: 5px 5px; /*separa a traves de margenes internas*/
+    margin: 5px 5px;
+    display: flex;
+}
+.texto, .imagen_texto
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: rgb(196, 231, 241);
+    padding: 8px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+.texto h1
+{
+    font-weight: 10px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18pt;
+}
+.imagen_texto img
+{
+    width: 60%;
+}
+.imagencontenido
+{
+    text-align: center;
+    align-items: center;
+}/*termina pelicula*/

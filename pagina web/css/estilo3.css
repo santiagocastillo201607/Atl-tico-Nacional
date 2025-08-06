@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e5f9e7;
+  color: #003e1f;
+}
+
+header {
+  background-color: #006e3c;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav {
+  background-color: #004d2b;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+.producto {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+
+.producto img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.producto h3 {
+  margin: 10px 0 5px;
+}
+
+.producto p {
+  margin: 0 0 10px;
+}
+
+.producto button {
+  background-color: #006e3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.producto button:hover {
+  background-color: #004d2b;
+}
+
+footer {
+  background-color: #003e1f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
